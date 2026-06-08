@@ -1,26 +1,92 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary-bg: #0A0A0A;
+  --color-secondary-bg: #141414;
+  --color-accent-gold: #D4AF37;
+  --color-accent-gold-hover: #B8962E;
+  --color-primary-text: #FFFFFF;
+  --color-secondary-text: #B5B5B5;
+  --color-border-rgba: rgba(255, 255, 255, 0.08);
+  
+  --font-heading: var(--font-montserrat), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  background-color: var(--color-primary-bg);
+  color: var(--color-primary-text);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-primary-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+  border: 2px solid var(--color-primary-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-accent-gold);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-accent-gold);
+  color: var(--color-primary-bg);
+}
+
+/* Custom Utilities for Luxury Border & Background Glass */
+.glass-panel {
+  background: rgba(20, 20, 20, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.gold-glow:hover {
+  box-shadow: 0 0 20px rgba(212, 175, 55, 0.15);
+}
+
+/* Accent Underline Animation */
+.gold-underline {
+  position: relative;
+}
+
+.gold-underline::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--color-accent-gold);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.gold-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
