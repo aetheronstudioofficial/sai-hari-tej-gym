@@ -14,7 +14,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden bg-primary-bg">
+    <section className="relative h-dvh sm:h-screen min-h-[550px] sm:min-h-[700px] flex items-center justify-center overflow-hidden bg-primary-bg">
       {/* Background Image with Dark Vignette/Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000 scale-105"

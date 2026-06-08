@@ -64,7 +64,7 @@ export default function Memberships() {
                   transition={{ duration: 0.6, delay: idx * 0.1 }}
                   className={`bg-secondary-bg rounded-sm flex flex-col justify-between transition-all duration-300 relative ${
                     plan.popular 
-                      ? "border-2 border-accent-gold shadow-xl scale-105 z-10 md:translate-y-[-8px]"
+                      ? "border-2 border-accent-gold shadow-xl sm:scale-105 z-10 md:translate-y-[-8px]"
                       : "border border-border-rgba hover:border-accent-gold/20"
                   }`}
                 >
@@ -181,7 +181,7 @@ export default function Memberships() {
                 <div
                   className="absolute inset-0 bg-cover bg-center"
                   style={{
-                    backgroundImage: "url('https://images.unsplash.com/photo-1605296867304-46d5465a25f1?q=80&w=1200&auto=format&fit=crop')",
+                    backgroundImage: "url('https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=1200&auto=format&fit=crop')",
                   }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />

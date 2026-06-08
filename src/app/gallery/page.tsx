@@ -24,7 +24,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
     id: "g-2",
     category: "equipment",
     title: "Plate-Loaded Machines",
-    image: "https://images.unsplash.com/photo-1605296867304-46d5465a25f1?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=800&auto=format&fit=crop",
   },
   {
     id: "g-3",
@@ -54,13 +54,13 @@ const GALLERY_ITEMS: GalleryItem[] = [
     id: "g-7",
     category: "equipment",
     title: "Barbells and Dumbbells Setup",
-    image: "https://images.unsplash.com/photo-1637666062717-1c6bcab4a4ed?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?q=80&w=800&auto=format&fit=crop",
   },
   {
     id: "g-8",
     category: "workout",
     title: "Cardio Treadmill Section",
-    image: "https://images.unsplash.com/photo-1571731956622-f1b8c024229b?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=800&auto=format&fit=crop",
   },
   {
     id: "g-9",

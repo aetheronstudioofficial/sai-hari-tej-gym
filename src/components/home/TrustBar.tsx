@@ -11,7 +11,7 @@ export default function TrustBar() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 divide-y md:divide-y-0 md:divide-x divide-border-rgba/60 items-center">
           
           {/* Location Verification */}
-          <div className="flex items-center gap-4 justify-center md:justify-start pb-6 md:pb-0">
+          <div className="flex items-center gap-4 justify-start md:justify-start pb-6 md:pb-0">
             <div className="w-12 h-12 bg-primary-bg rounded-full flex items-center justify-center border border-accent-gold/25 text-accent-gold shrink-0">
               <MapPin className="w-5 h-5" />
             </div>
@@ -24,7 +24,7 @@ export default function TrustBar() {
           </div>
 
           {/* Address Description */}
-          <div className="flex items-center gap-4 justify-center md:justify-start py-6 md:py-0 md:px-8">
+          <div className="flex items-center gap-4 justify-start md:justify-start py-6 md:py-0 md:px-8">
             <div className="w-12 h-12 bg-primary-bg rounded-full flex items-center justify-center border border-accent-gold/25 text-accent-gold shrink-0">
               <Award className="w-5 h-5" />
             </div>
@@ -37,7 +37,7 @@ export default function TrustBar() {
           </div>
 
           {/* Social Proof metrics */}
-          <div className="flex items-center gap-4 justify-center md:justify-start pt-6 md:pt-0 md:pl-8">
+          <div className="flex items-center gap-4 justify-start md:justify-start pt-6 md:pt-0 md:pl-8">
             <div className="w-12 h-12 bg-primary-bg rounded-full flex items-center justify-center border border-accent-gold/25 text-accent-gold shrink-0">
               <Star className="w-5 h-5 fill-accent-gold" />
             </div>

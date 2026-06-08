@@ -74,7 +74,7 @@ export default function BmiCalculator() {
               <h4 className="font-heading font-bold text-xs text-white uppercase tracking-wider">
                 BMI Reference Categories
               </h4>
-              <div className="grid grid-cols-4 gap-2 text-[10px] text-center font-bold">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-[10px] text-center font-bold">
                 <div className="p-2 bg-blue-950/40 border border-blue-900/30 text-blue-400 rounded-sm">
                   &lt; 18.5<br />Under
                 </div>

@@ -88,7 +88,7 @@ export default function Location() {
             {/* Embedded Google Map iframe matching gym location coordinates */}
             <iframe
               title="Sai Hari Tej Gym Google Maps Location"
-              src="https://maps.google.com/maps?q=Sai%20Hari%20Tej%20Gym,%20SBI%20Complex,%20Anekal%20Hosur%20Road,%20KSRTC%20Colony,%20Anekal,%20Karnataka%20562106&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d363.5461748180636!2d77.70155050387326!3d12.704168363286433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6f81adbc437d%3A0x58195cc9b9ecd03a!2sSai%20Hari%20Tej%20Gym%20-%20Best%20gym%20in%20Anekal!5e0!3m2!1sen!2sin!4v1780924228451!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}

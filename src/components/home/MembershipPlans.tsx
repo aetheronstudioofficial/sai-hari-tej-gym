@@ -42,7 +42,7 @@ export default function MembershipPlans() {
               transition={{ duration: 0.6, delay: idx * 0.1 }}
               className={`bg-secondary-bg rounded-sm flex flex-col justify-between transition-all duration-300 relative ${
                 plan.popular 
-                  ? "border-2 border-accent-gold shadow-xl shadow-accent-gold/5 scale-105 z-10 md:translate-y-[-8px]"
+                  ? "border-2 border-accent-gold shadow-xl shadow-accent-gold/5 sm:scale-105 z-10 md:translate-y-[-8px]"
                   : "border border-border-rgba hover:border-accent-gold/20"
               }`}
             >
